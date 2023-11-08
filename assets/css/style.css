@@ -1,0 +1,44 @@
+#navbar {
+    overflow: hidden;
+    background-color: #333;
+}
+
+#navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+#navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+#intro {
+    text-align: center;
+    margin-top: 40vh;
+    margin-bottom: 50vh;
+}
+
+.title{
+    padding-top: 10vh;
+    margin-bottom: 10vh;
+}
+
+.content{
+    margin-bottom: 25vh;
+    font-size: 150%;
+}
+
+.go-back{
+    text-align: right;
+    margin-bottom: 25vh;
+}
+
+.active{
+    background-color: green;
+}

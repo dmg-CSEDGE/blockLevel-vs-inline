@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Block-Level</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+    <div id="navbar" class="sticky">
+        <a class="active" href="./block-level.html">Block-level</a>
+        <a href="./inline.html">Inline</a>
+        <a href="./combined.html">Combined</a>
+    </div>
+    <div id="main">
+        <div id="block-level">
+            <h1 class="title">Block-level HTML Elements</h1>
+
+            <div class="content">
+                <!-- Notice that eventhough these two paragraphs are on the same line they are rendered on different lines in the browser -->
+                <p>This is a paragraph, which is a block-level element.</p>
+                <p>This means that it will start on a new line and take up the full width of its container element.</p>
+
+                <ul>
+                    <li>This is an unordered list item, which is also a block-level element.</li>
+                    <li>Another unordered list item.</li>
+                </ul>
+
+                <ol>
+                    <li>This is an ordered list item.</li>
+                    <li>Another ordered list item.</li>
+                </ol>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

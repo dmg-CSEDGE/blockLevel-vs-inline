@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>SPA: Block-Level vs Inline HTML Elements</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+
+<body>
+    <div id="navbar" class="sticky">
+        <a href="#block-level">Block-level</a>
+        <a href="#inline">Inline</a>
+        <a href="#combined">Combined</a>
+    </div>
+    <div id="main">
+        <div id="intro">
+            <h2>Select an option from the navbar to scroll to that section.</h2>
+        </div>
+        <div id="block-level">
+            <h1 class="title">Block-level HTML Elements</h1>
+
+            <div class="content">
+                <!-- Notice that eventhough these two paragraphs are on the same line they are rendered on different lines in the browser -->
+                <p>This is a paragraph, which is a block-level element.</p>
+                <p>This means that it will start on a new line and take up the full width of its container element.</p>
+
+                <ul>
+                    <li>This is an unordered list item, which is also a block-level element.</li>
+                    <li>Another unordered list item.</li>
+                </ul>
+
+                <ol>
+                    <li>This is an ordered list item.</li>
+                    <li>Another ordered list item.</li>
+                </ol>
+            </div>
+
+            <div class="go-back">
+                <h3><a href="#navbar">Return to Nav Bar</a></h3>
+            </div>
+        </div>
+
+        <div id="inline">
+            <h1 class="title">Inline HTML Elements</h1>
+
+            <div class="content">
+                <p>Inline HTML elements are different from block-level elements in that they do not start on a new line
+                    or
+                    take
+                    up
+                    the full width of their container element. Instead, they flow around other inline elements.</p>
+
+                <!-- Notice that although each of these inline elements are on different lines they are rendered on the same line in the browser -->
+                <p>Here are some examples of inline HTML elements:</p>
+                <strong>Strong text</strong>
+                <em>Emphasized text</em>
+                <a href="https://www.google.com">Link</a>
+                <img src="../assets/images/blank.jpg" alt="Image">
+            </div>
+
+            <div class="go-back">
+                <h3><a href="#navbar">Return to Nav Bar</a></h3>
+            </div>
+        </div>
+
+
+        <div id="combined">
+            <h1 class="title">Combine Inline with Block-Level HTML Elements</h1>
+
+            <div class="content">
+                <p>You can combine block-level and inline HTML elements to create more complex web pages. In this
+                    example we
+                    use
+                    an
+                    unordered list to render each inline element on a new line</p>
+
+                <ul>
+                    <li><strong>Strong text</strong></li>
+                    <li><em>Emphasized text</em></li>
+                    <li><a href="https://www.google.com">Link</a></li>
+                    <li><img src="../assets/images/blank.jpg" alt="Image"></li>
+                </ul>
+            </div>
+
+            <div class="go-back">
+                <h3><a href="#navbar">Return to Nav Bar</a></h3>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
