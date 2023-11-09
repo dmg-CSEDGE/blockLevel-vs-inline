@@ -1,30 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inline</title>
+    <title>Inline HTML Elements</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Pridi:wght@200&family=Taviraj&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="../assets/css/style.css">
 </head>
+
 <body>
-    <div id="navbar" class="sticky">
+    <div id="navbar">
         <a href="./block-level.html">Block-level</a>
         <a class="active" href="./inline.html">Inline</a>
         <a href="./combined.html">Combined</a>
     </div>
     <div id="main">
-        <div id="inline">
-            <h1 class="title">Inline HTML Elements</h1>
-
-            <div class="content">
-                <p>Inline HTML elements are different from block-level elements in that they do not start on a new line
-                    or
-                    take
-                    up
-                    the full width of their container element. Instead, they flow around other inline elements.</p>
-
-                <!-- Notice that although each of these inline elements are on different lines they are rendered on the same line in the browser -->
-                <p>Here are some examples of inline HTML elements:</p>
+        <div id="inline" class="content">
+            <div class="title">
+                <h1>Inline <br> HTML Elements</h1>
+            </div>
+            <div class="explanation">
+                <p>Inline HTML elements are different from block-level elements
+                    in that they do not start on a new line or take up the full
+                    width of their container element.</p>
+                <p>Instead, they flow around other inline elements.
+                    Here are some examples of inline HTML elements:</p>
+            </div>
+            <div class="example">
                 <strong>Strong text</strong>
                 <em>Emphasized text</em>
                 <a href="https://www.google.com">Link</a>
@@ -33,4 +40,5 @@
         </div>
     </div>
 </body>
+
 </html>

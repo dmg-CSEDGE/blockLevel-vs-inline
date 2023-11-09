@@ -1,26 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Block-Level</title>
+    <title>Block-Level HTML Elements</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Pridi:wght@200&family=Taviraj&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="../assets/css/style.css">
 </head>
+
 <body>
-    <div id="navbar" class="sticky">
+    <div id="navbar">
         <a class="active" href="./block-level.html">Block-level</a>
         <a href="./inline.html">Inline</a>
         <a href="./combined.html">Combined</a>
     </div>
     <div id="main">
-        <div id="block-level">
-            <h1 class="title">Block-level HTML Elements</h1>
-
-            <div class="content">
-                <!-- Notice that eventhough these two paragraphs are on the same line they are rendered on different lines in the browser -->
+        <div id="block-level" class="content">
+            <div class="title">
+                <h1>Block-Level <br> HTML Elements</h1>
+            </div>
+            <div class="explanation">
                 <p>This is a paragraph, which is a block-level element.</p>
                 <p>This means that it will start on a new line and take up the full width of its container element.</p>
-
+            </div>
+            <div class="example">
                 <ul>
                     <li>This is an unordered list item, which is also a block-level element.</li>
                     <li>Another unordered list item.</li>
@@ -34,4 +42,5 @@
         </div>
     </div>
 </body>
+
 </html>

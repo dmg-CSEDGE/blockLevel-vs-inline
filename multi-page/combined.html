@@ -4,27 +4,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Combined</title>
+    <title>Combined HTML Elements</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Pridi:wght@200&family=Taviraj&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="../assets/css/style.css">
 </head>
 
 <body>
-    <div id="navbar" class="sticky">
+    <div id="navbar">
         <a href="./block-level.html">Block-level</a>
         <a href="./inline.html">Inline</a>
         <a class="active" href="./combined.html">Combined</a>
     </div>
     <div id="main">
-        <div id="combined">
-            <h1 class="title">Combine Inline with Block-Level HTML Elements</h1>
-
-            <div class="content">
-                <p>You can combine block-level and inline HTML elements to create more complex web pages. In this
-                    example we
-                    use
-                    an
-                    unordered list to render each inline element on a new line</p>
-
+        <div id="combined" class="content">
+            <div class="title">
+                <h1>Combine <br> Inline with Block-Level <br> HTML Elements</h1>
+            </div>
+            <div class="explanation">
+                <p>You can combine block-level and inline HTML elements to create more complex web pages.</p>
+                <p> In this example we use an unordered list to render each inline element on a new line</p>
+            </div>
+            <div class="example">
                 <ul>
                     <li><strong>Strong text</strong></li>
                     <li><em>Emphasized text</em></li>

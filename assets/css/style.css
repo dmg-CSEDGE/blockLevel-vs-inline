@@ -4,6 +4,7 @@
 }
 
 #navbar a {
+    font-family: 'Taviraj', serif;
     float: left;
     display: block;
     color: #f2f2f2;
@@ -18,27 +19,41 @@
     color: black;
 }
 
-#intro {
+.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+.title {
+    font-family: 'Taviraj', serif;
+    font-weight: bold;
     text-align: center;
-    margin-top: 40vh;
-    margin-bottom: 50vh;
-}
-
-.title{
-    padding-top: 10vh;
-    margin-bottom: 10vh;
-}
-
-.content{
-    margin-bottom: 25vh;
+    padding-top: 5vh;
     font-size: 150%;
 }
 
-.go-back{
-    text-align: right;
-    margin-bottom: 25vh;
+.content {
+    height: 95vh;
 }
 
-.active{
+.explanation {
+    font-family: 'Oswald', sans-serif;
+    font-size: 150%;
+    text-align: justify;
+    margin-bottom: 5vh;
+}
+
+.explanation p {
+    padding: 1%;
+    margin: unset;
+}
+
+.example {
+    font-family: 'Pridi', serif;
+    font-size: 125%;
+}
+
+.active {
     background-color: green;
 }
